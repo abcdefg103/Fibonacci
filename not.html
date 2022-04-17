@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <ul class="nav nav-pills nav-fill">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Fib Sequence</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Fib Number</a>
+  </li>
+</ul>
+  <p class="alert alert-info">Put a number in, and it will print the Fibbonachi numbers that corresponds with the number! (Note that numbers higher than 102 will be in it's scientific form.</p>
+  <!-- (A) HTML FORM -->
+<div class="jumbotron">
+    <div>Name</div>
+    <div class="input-group mb-3">
+    
+    <input type="number" class="form-control"       placeholder="Write a number" aria-label="Write a number" aria-describedby="basic-addon2" id="input">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" onclick="return notthing()">Press to see the value!</button>
+      </div>
+    </div>
+</div>
+    <!--
+    <input type="number" id="user_name" required value="Jon Doe"/>
+   
+    <button class="btn btn-primary" onclick="doForm()">Press to see the value!!</button>
+  -->
+  <div class="jumbotron">
+    <h1 class="display-4">The Fibbonachi number:</h1>
+    <hr>
+    <p id="p2" class="lead">The corresponding number goes here</p>
+  </div>  
+  <!-- (B) JS PROCESSING -->
+  <script src="script.js">
+  </script>
+  </body>
+</html>
